@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Buttons inside a LinearLayout center their contents property -->
+<org.efalk.gridbox.HLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:gridbox="http://schemas.android.com/apk/res/org.efalk.gridbox"
+    android:layout_width="400px"
+    android:layout_height="wrap_content"
+    android:background="#422"
+    >
+  <Button
+    android:text="A"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    />
+  <Button
+    android:text="B"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    />
+  <Button
+    android:text="C"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    />
+  <Button
+    android:text="D"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    />
+
+</org.efalk.gridbox.HLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- A linear layout inside a gridbox does not expand its children to
+fill itself, as it should. -->
+<org.efalk.gridbox.Gridbox
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:gridbox="http://schemas.android.com/apk/res/org.efalk.gridbox"
+    android:layout_width="400px"
+    android:layout_height="wrap_content"
+    android:background="#422"
+    >
+  <LinearLayout
+      android:orientation="vertical"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:background="#242"
+      gridbox:layout_gridx="0"
+      gridbox:layout_gridy="0"
+      gridbox:layout_gravity="fill"
+      >
+    <TextView  
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content" 
+	android:text="@string/hello"
+	android:background="#224"
+	/>
+    <TextView  
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content" 
+	android:text="@string/hello"
+	android:background="#424"
+	/>
+  </LinearLayout>
+
+</org.efalk.gridbox.Gridbox>

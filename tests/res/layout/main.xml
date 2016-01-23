@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Buttons inside a gridbox do not center their contents property -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:gridbox="http://schemas.android.com/apk/res/org.efalk.gridbox"
+    android:orientation="vertical"
+    android:layout_width="400px"
+    android:layout_height="wrap_content"
+    >
+
+  <org.efalk.gridbox.Gridbox
+      android:layout_width="400px"
+      android:layout_height="wrap_content"
+      android:background="#422"
+      >
+    <Button
+      android:text="A"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      gridbox:layout_gridx="0" gridbox:layout_gridy="0"
+      />
+    <Button
+      android:text="B"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      gridbox:layout_gridx="1" gridbox:layout_gridy="0"
+      />
+    <Button
+      android:text="C"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      gridbox:layout_gridx="2" gridbox:layout_gridy="0"
+      />
+    <Button
+      android:text="D"
+      android:layout_width="77px"
+      android:layout_height="wrap_content"
+      gridbox:layout_gridx="3" gridbox:layout_gridy="0"
+      />
+  </org.efalk.gridbox.Gridbox>
+
+  <org.efalk.gridbox.Gridbox
+      android:layout_width="400px"
+      android:layout_height="wrap_content"
+      android:background="#422"
+      >
+    <Button
+      android:text="A"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      gridbox:layout_gridx="0" gridbox:layout_gridy="0"
+      gridbox:layout_weightx="1"
+      />
+    <Button
+      android:text="B"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      gridbox:layout_gridx="1" gridbox:layout_gridy="0"
+      gridbox:layout_weightx="1"
+      />
+    <Button
+      android:text="C"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      gridbox:layout_gridx="2" gridbox:layout_gridy="0"
+      gridbox:layout_weightx="1"
+      />
+    <Button
+      android:text="D"
+      android:layout_width="77px"
+      android:layout_height="wrap_content"
+      gridbox:layout_gridx="3" gridbox:layout_gridy="0"
+      gridbox:layout_weightx="1"
+      />
+  </org.efalk.gridbox.Gridbox>
+
+  <org.efalk.gridbox.Gridbox
+      android:layout_width="400px"
+      android:layout_height="wrap_content"
+      android:background="#422"
+      gridbox:gravity="fill"
+      >
+    <Button
+      android:text="A"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      gridbox:layout_gridx="0" gridbox:layout_gridy="0"
+      />
+    <Button
+      android:text="B"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      gridbox:layout_gridx="1" gridbox:layout_gridy="0"
+      gridbox:layout_weightx="1"
+      />
+    <Button
+      android:text="C"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      gridbox:layout_gridx="2" gridbox:layout_gridy="0"
+      />
+    <Button
+      android:text="D"
+      android:layout_width="77px"
+      android:layout_height="wrap_content"
+      gridbox:layout_gridx="3" gridbox:layout_gridy="0"
+      />
+  </org.efalk.gridbox.Gridbox>
+
+  <org.efalk.gridbox.Gridbox
+      android:layout_width="400px"
+      android:layout_height="wrap_content"
+      android:background="#422"
+      android:paddingLeft="40px"
+      gridbox:gravity="fill"
+      >
+    <Button
+      android:text="A"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      gridbox:layout_gridx="0" gridbox:layout_gridy="0"
+      gridbox:layout_weightx="1"
+      />
+    <Button
+      android:text="B"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      gridbox:layout_gridx="1" gridbox:layout_gridy="0"
+      gridbox:layout_weightx="1"
+      />
+    <Button
+      android:text="C"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      gridbox:layout_gridx="2" gridbox:layout_gridy="0"
+      gridbox:layout_weightx="1"
+      />
+    <Button
+      android:text="D"
+      android:layout_width="77px"
+      android:layout_height="wrap_content"
+      gridbox:layout_gridx="3" gridbox:layout_gridy="0"
+      gridbox:layout_weightx="1"
+      />
+  </org.efalk.gridbox.Gridbox>
+
+</LinearLayout>

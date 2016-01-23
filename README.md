@@ -22,6 +22,41 @@ size is 1x1).  A typical layout might look like this:
 In addition, child widgets may specify a margin, and weights which
 determine how they are resized if the parent widget is resized.
 
+# To use Gridbox
+
+Set up Gridbox as an Android library or simply copy it into your
+application's source base.
+
+In your layout.xml files, add this to your top-level tag:
+
+```
+xmlns:gridbox="http://schemas.android.com/apk/res/org.com.example"
+```
+
+Use this tag (example) in your layout.xml file:
+
+```
+  <org.efalk.gridbox.Gridbox
+      android:id="@+id/buttonContainer"
+      android:background="@color/bgColor"
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent"
+      gridbox:gravity="fill"
+      gridbox:force_uniform_width="true"
+      >
+```
+
+Child widges of a Gridbox should contain gridbox-specific attributes:
+
+```
+    <Button android:id="@+id/verticalCell"
+        android:text="@string/text1"
+        gridbox:layout_gridx="2" gridbox:layout_gridy="0"
+        gridbox:layout_rowSpan="4"
+        gridbox:layout_weighty="1"
+        />
+```
+
 ## Gridbox attributes
 
 Name | What

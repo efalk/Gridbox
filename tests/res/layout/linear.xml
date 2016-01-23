@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- A linear layout inside a linear layout expands its children to
+fill itself, as it should. -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="400px"
+    android:layout_height="wrap_content"
+    android:background="#422"
+    >
+  <LinearLayout
+      android:orientation="vertical"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:background="#242"
+      >
+    <TextView  
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content" 
+	android:text="@string/hello"
+	android:background="#224"
+	/>
+    <TextView  
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content" 
+	android:text="@string/hello"
+	android:background="#424"
+	/>
+  </LinearLayout>
+</LinearLayout>
