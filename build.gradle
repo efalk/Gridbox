@@ -3,6 +3,7 @@ plugins {
 }
 
 android {
+    namespace "org.efalk.gridbox"
     compileSdk 31
 
     defaultConfig {
